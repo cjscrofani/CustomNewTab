@@ -1,0 +1,69 @@
+/* Reset default margins and paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling: modern system font and centered layout */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f4f4;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container for the form */
+#content {
+  background: #ffffff;
+  padding: 2rem 3rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 400px;
+  width: 90%;
+}
+
+/* Label styling */
+#urlForm label {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 1.1rem;
+  color: #333333;
+}
+
+/* Input field styling */
+#urlForm input[type="text"] {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+  transition: border-color 0.3s ease;
+}
+
+/* Input focus state */
+#urlForm input[type="text"]:focus {
+  outline: none;
+  border-color: #0077ff;
+}
+
+/* Button styling */
+#urlForm button {
+  padding: 0.75rem 1.5rem;
+  background: #0077ff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+/* Button hover state */
+#urlForm button:hover {
+  background: #005fcc;
+}
