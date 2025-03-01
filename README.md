@@ -19,4 +19,4 @@ This Chrome extension allows users to set a custom URL for their New Tab page. W
 
 1. **Clone or Download:**
    ```bash
-   git clone https://github.com/your-username/custom-new-tab.git
+   git clone https://github.com/cjscrofani/custom-new-tab.git
